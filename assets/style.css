@@ -1,19 +1,63 @@
+/* Css styling start */
 *{
     margin: 0;
     padding: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 1000px;
 }
 
 .img-Kristie {
     width: 300px;
 }
 body{
-    background: #0b71a0;
-    color: #fff;
+    background: rgb(245, 247, 248);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+header {
+    padding: 20px 35px;
+    background-color: rgb(70, 69, 69);
+    display:flex;
+    flex-wrap: wrap;
+    position:sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+header a {
+    text-decoration: none;
+    color:rgb(238, 133, 12)
+}
+
+header nav {
+    margin: 8px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.44vw;
+    text-shadow: 0 0 10px rgb(177, 182, 180);
+}
+  
+header nav ul li a:hover {
+    color: #f0bb0c;
+    border-radius: 10px;
+    text-shadow: none;
+}  

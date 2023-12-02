@@ -11,6 +11,7 @@
     width: 100%;
     height: 100vh;
     background: #ae9bb3;
+    margin-bottom: 955px;
 }
 /* nav css styling */
 nav{
@@ -29,7 +30,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color:rgb(79, 91, 161);
+    color:#5e1818;
     font-weight: bold;
     font-size: 35px;
 }
@@ -45,20 +46,20 @@ color:rgb(159, 159, 196);
 /* added margin and styling for h1 */
 .detel h1{
     font-size: 50px;
-    color: #792828;
+    color: #5e1818;
     margin-bottom:20px;
 }
 span{
-    color: #f1eee8;
+    color: #ffffff;
 }
 /* Added styling for paragraph */
 .detel p{
-    color: beige;
+    color: rgb(255, 255, 255);
     line-height: 22px;
 }
 /* added resume and styling */
 .detel a{
-    background: #ebe8e2;
+    background: #fefcff;
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
@@ -68,7 +69,7 @@ span{
     border-radius: 5px;
 }
 /* portfolio image and positioning and styling */
-.images{
+.Picture{
     height: 77%;
     width: 25%;
     position: absolute;
@@ -79,47 +80,34 @@ span{
 }
 /* projects h2 styling and positioning */
 h2 {
-    margin-top: 300px;
+    margin-top: 100px;
     border-bottom: 0;
-    width: 80%;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    padding: 30px;
+    padding: 50px;
     justify-content: center;
-    color: #412b72;
-font-size: 50px;
+    color: #5e1818;
+    font-size: 50px;
+}
+#Projects {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(126, 204, 204);
+  margin-top: 340px;
+  height: 1000px;
 }
 
-.row {
-  margin-left: 20px 20px;
-  margin-right: auto;
-  display:inline-table;
-  justify-content:center;
+.images{
+  display:flex;
+flex-wrap: wrap;
+justify-content:space-around;
+box-sizing: border-box;
 }
-  
-  .row,
-  .row > .column {
-    padding: 80px;
-
-    
-  }
-  
-  .column {
-    float: left;
-    width: 160;
-    height: 200;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-  }
-  
-  /* Content */
-  .content {
-    background-color: rgb(168, 118, 118);
-    padding: 30px;
-  }
+.images img {
+  width: 360px;
+  height: 240px;
+  margin: 40px;
+}
   /* added media */
   @media screen and (max-width: 900px) {
     .column {

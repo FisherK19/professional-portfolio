@@ -91,12 +91,12 @@ font-size: 100px;
 }
 
 .row {
-    margin: 22px -16px;
+    margin: 10px -16px;
   }
   
   .row,
   .row > .column {
-    padding: 40px;
+    padding: 30px;
     
   }
   

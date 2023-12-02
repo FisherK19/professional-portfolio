@@ -79,30 +79,35 @@ span{
 }
 /* projects h2 styling and positioning */
 h2 {
-    margin-top: 400px;
+    margin-top: 300px;
     border-bottom: 0;
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 10px 10px 10px;
-    justify-content: left;
+    padding: 30px;
+    justify-content: center;
     color: #412b72;
-font-size: 100px;
+font-size: 50px;
 }
 
 .row {
-    margin: 10px -16px;
-  }
+  margin-left: 20px 20px;
+  margin-right: auto;
+  display:inline-table;
+  justify-content:center;
+}
   
   .row,
   .row > .column {
-    padding: 30px;
+    padding: 80px;
+
     
   }
   
   .column {
     float: left;
-    width: 45%;
+    width: 160;
+    height: 200;
   }
   
   .row:after {
@@ -113,7 +118,7 @@ font-size: 100px;
   /* Content */
   .content {
     background-color: rgb(168, 118, 118);
-    padding: 40px;
+    padding: 30px;
   }
   /* added media */
   @media screen and (max-width: 900px) {

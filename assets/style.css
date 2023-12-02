@@ -1,16 +1,18 @@
+/* beginning of styling */
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+/* background styling */
 .hero{
     position: relative;
     width: 100%;
     height: 100vh;
     background: #ae9bb3;
 }
-
+/* nav css styling */
 nav{
     display: flex;
     width: 84%;
@@ -19,6 +21,7 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+/* nav list styling */
 nav ul li{
     display:inline-block;
     list-style: none;
@@ -30,13 +33,16 @@ nav ul li a{
     font-weight: bold;
     font-size: 35px;
 }
+/* added hovering to nav list */
 nav ul li a:hover{
 color:rgb(159, 159, 196);
 }
+/* added margins for About me */
 .detel{
     margin-left: 8%;
     margin-top: 15%;
 }
+/* added margin and styling for h1 */
 .detel h1{
     font-size: 50px;
     color: #792828;
@@ -45,10 +51,12 @@ color:rgb(159, 159, 196);
 span{
     color: #f1eee8;
 }
+/* Added styling for paragraph */
 .detel p{
     color: beige;
     line-height: 22px;
 }
+/* added resume and styling */
 .detel a{
     background: #ebe8e2;
     padding: 10px 18px;
@@ -59,6 +67,7 @@ span{
     margin: 30px 0;
     border-radius: 5px;
 }
+/* portfolio image and positioning and styling */
 .images{
     height: 77%;
     width: 25%;
@@ -68,7 +77,7 @@ span{
     transform: translateX(-50);
     transition: bottom 1s, left 1s;
 }
-
+/* projects h2 styling and positioning */
 h2 {
     margin-top: 400px;
     border-bottom: 0;
@@ -82,23 +91,20 @@ font-size: 100px;
 }
 
 .row {
-    margin: 10px -16px;
+    margin: 22px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
   .row,
   .row > .column {
-    padding: 30px;
+    padding: 40px;
     
   }
   
-  /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: 25%;
+    width: 45%;
   }
   
-  /* Clear floats after rows */
   .row:after {
     content: "";
     display: table;
@@ -109,15 +115,13 @@ font-size: 100px;
     background-color: rgb(168, 118, 118);
     padding: 40px;
   }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  /* added media */
   @media screen and (max-width: 900px) {
     .column {
       width: 70%;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;

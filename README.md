@@ -33,3 +33,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 <h4>Usage</h4>
+Webpage link:  https://fisherk19.github.io/professional-portfolio/ <br>
+Github link: https://github.com/FisherK19/professional-portfolio

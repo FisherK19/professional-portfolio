@@ -27,6 +27,9 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-![img]<![Alt text](<images/Kristies portfolio.png>)
+![img](<images/Kristies portfolio.png>)
+![img](<images/Kristies projects.png>)
+![img](<images/Screenshot 2023-12-02 235453.png>)
+
 
 <h4>Usage</h4>

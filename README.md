@@ -1,10 +1,10 @@
 # Kristie Fisher-Portfolio
 
 <h1>Description</h1>
-Welcome this is my portfolio!<br>
-this project helped me utilize the tools and skills I have learned so far in bootcamp. <br>
-This was my first time starting a webpage from scratch, I had to incorporate a user friendly interface within the webpage.<br>
- I had to put links into an image of my first project, add images, customize text, and navigate links to sections to personalize it to fit my style. <br>
+Welcome this is my portfolio!
+this project helped me utilize the tools and skills I have learned so far in bootcamp. 
+This was my first time starting a webpage from scratch, I had to incorporate a user friendly interface within the webpage.
+ I had to put links into an image of my first project, add images, customize text, and navigate links to sections to personalize it to fit my style. 
 I plan on using this Portfolio to add upcoming challenges to progress my skills and help me further my career.
 
 <h2>User Story</h2>
@@ -27,6 +27,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-![img](<assets/images/Kristies portfolio.png>)
+![img]<![Alt text](<images/Kristies portfolio.png>)
 
-<h4>usage</h4>
+<h4>Usage</h4>

@@ -63,6 +63,7 @@ ol {
 /* Portfolio picture and positioning */
 .Picture {
  position: absolute;
+ width: 100%;
  top: 70px;
  right: 0px;
  bottom: 30px;
@@ -117,9 +118,6 @@ box-sizing: border-box;
   padding: none;
   border-radius: 40%;
 }
-  /* added media */
-
-
 /* contact title and formatting */
   h3{
     border-bottom: 0;
@@ -173,9 +171,11 @@ margin-bottom: auto;
     box-shadow: 0 0 10px white;
 
   }
-    
-
-
+  @media screen and (max-width: 640px) {
+    .hero {
+        width: 100%;
+    }
+  }
 
 
     

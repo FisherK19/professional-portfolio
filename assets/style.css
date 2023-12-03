@@ -10,7 +10,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #ae9bb3;
+    background: #147679;
     margin-bottom: 955px;
 }
 /* nav css styling */
@@ -92,7 +92,7 @@ h2 {
 #Projects {
   display: flex;
   flex-direction: column;
-  background-color: rgb(126, 204, 204);
+  background-color: rgb(221, 208, 208);
   margin-top: 340px;
   height: 1000px;
 }
@@ -120,6 +120,58 @@ box-sizing: border-box;
       width: 100%;
     }
   }
+  h3{
+    margin-top: 200px;
+    border-bottom: 0;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    color: #5e1818;
+    font-size: 50px;
+  }
+#contact{
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+background-color: #838383;
+color: #ffffff;
+padding: 200px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 20px 0px;
+  }
+  .input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+  }
+  #msg{
+    width: 20%;
+    padding: 10px;
+    margin: 15px;
+    border: none;
+    outline: none;
+  }
+  #send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+  }
+  #send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
+
+  }
+  
+
 
 
 

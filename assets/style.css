@@ -11,7 +11,6 @@
     width: 100%;
     height: 100vh;
     background: #147679;
-    margin-bottom: 955px;
 }
 /* nav css styling */
 nav{
@@ -43,32 +42,17 @@ color:rgb(159, 159, 196);
     margin-left: 8%;
     margin-top: 15%;
 }
-/* added margin and styling for h1 */
-.detel h1{
+/* added margin and styling for header */
+header {
     font-size: 50px;
-    color: #5e1818;
+    color: #cfc9c9;
     margin-bottom:20px;
+    font-weight: bold;
 }
 span{
-    color: #ffffff;
+    color: #5e1818;
 }
-/* Added styling for paragraph */
-.detel p{
-    color: rgb(255, 255, 255);
-    line-height: 22px;
-}
-/* added resume and styling */
-.detel a{
-    background: #fefcff;
-    padding: 10px 18px;
-    text-decoration: none;
-    font-weight: bold;
-    color:rgb(15, 15, 15);
-    display: inline-block;
-    margin: 30px 0;
-    border-radius: 5px;
-}
-/* portfolio image and positioning and styling */
+/* Portfolio picture and positioning */
 .Picture{
     height: 77%;
     width: 25%;
@@ -78,25 +62,41 @@ span{
     transform: translateX(-50);
     transition: bottom 1s, left 1s;
 }
-/* projects h2 styling and positioning */
-h2 {
-    margin-top: 100px;
-    border-bottom: 0;
-    width: 100%;
-    display: flex;
-    padding: 50px;
-    justify-content: center;
-    color: #5e1818;
-    font-size: 50px;
+/* projects styling and positioning */
+h1{
+  margin-top: 60px;
+  border-bottom: 0;
+  width: 50%;
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  color: #5e1818;
+  font-size: 50px;
+  margin-left: 25%;
 }
+/* h2 styling and positioning of images*/
+h2 {
+  float:right;
+  width: 40%;
+  text-align: center;
+  font-style: bold;
+  font-size:"";
+  text-indent: 0;
+  border: rgb(8, 8, 8) solid;
+  border-width: 20px;
+  margin: 1.5em;
+  padding: 1em;
+  
+}
+/* Project title and formatting */
 #Projects {
   display: flex;
   flex-direction: column;
   background-color: rgb(221, 208, 208);
-  margin-top: 340px;
+  margin-top: 440px;
   height: 1000px;
 }
-
+/* Project images and positioning */
 .images{
   display:flex;
 flex-wrap: wrap;
@@ -104,9 +104,12 @@ justify-content:space-around;
 box-sizing: border-box;
 }
 .images img {
-  width: 360px;
-  height: 240px;
-  margin: 40px;
+  width: 450px;
+  height: 180px;
+  margin-top: 30px;
+  margin-left: 5%;
+  padding: none;
+  border-radius: 30%;
 }
   /* added media */
   @media screen and (max-width: 900px) {
@@ -120,8 +123,8 @@ box-sizing: border-box;
       width: 100%;
     }
   }
+/* contact title and formatting */
   h3{
-    margin-top: 200px;
     border-bottom: 0;
     display: flex;
     padding: 50px;
@@ -129,14 +132,16 @@ box-sizing: border-box;
     color: #5e1818;
     font-size: 50px;
   }
-#contact{
+/* added contact box */
+#Contact{
 display: flex;
 flex-direction: column;
 box-sizing: border-box;
-background-color: #838383;
-color: #ffffff;
+background-color: #868181;
 padding: 200px;
+margin-bottom: 1000px;
   }
+
   .form{
     display: flex;
     flex-direction: column;
@@ -165,6 +170,7 @@ padding: 200px;
     border: none;
     outline: none;
   }
+  /* added some hovering to the send button */
   #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;

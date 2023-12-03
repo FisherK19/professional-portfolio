@@ -11,12 +11,13 @@
     width: 100%;
     height: 100vh;
     background: #147679;
+    background-size: cover;
+    margin: auto;
 }
 /* nav css styling */
 nav{
     display: flex;
     width: 84%;
-    margin-left: 1200px;
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
@@ -54,19 +55,20 @@ span{
 }
 
 ol {
-  font-weight: bold;
-  font-size: 18px;
-  color: rgb(18, 19, 18);
+
+  font-weight: bolder;
+  font-size: 1.1rem;
+  color: rgb(240, 252, 240);
 }
 /* Portfolio picture and positioning */
 .Picture{
-    height: 77%;
-    width: 25%;
+    height: 100%;
     position: absolute;
     left: 70%;
     bottom: 0;
     transform: translateX(-50);
     transition: bottom 1s, left 1s;
+    opacity: 1;
 }
 /* projects styling and positioning */
 h1{
@@ -82,9 +84,7 @@ h1{
 }
 /* h2 styling and positioning of images*/
 h2 {
-  float:right;
   width: 40%;
-  text-align: center;
   font-style: bold;
   font-size:"";
   text-indent: 0;
@@ -92,15 +92,16 @@ h2 {
   border-width: 10px;
   margin: 1.5em;
   padding: 1em;
+  display: flex;
   
 }
 /* Project title and formatting */
 #Projects {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   background-color: rgb(221, 208, 208);
-  margin-top: 440px;
-  height: 1000px;
+  margin-top: 365px;
+  height: 100%;
   color: #5e1818;
 }
 /* Project images and positioning */
@@ -111,24 +112,58 @@ justify-content:space-around;
 box-sizing: border-box;
 }
 .images img {
-  width: 450px;
-  height: 180px;
+  width: 100%;
+  height: auto;
   margin-top: 30px;
   margin-left: 5%;
   padding: none;
-  border-radius: 30%;
+  border-radius: 40%;
 }
   /* added media */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 70%;
+  @media only screen and  (max-width: 400px) {
+    .hero {
+      width: 100%;
+      height: 100%
+      
+    }
+  }
+  @media (min-width: 401px) {
+    .hero {
+      width: 100%;
+      height: 100%;
+      
     }
   }
   
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
+  @media (max-width: 800px) {
+    .Picture {
+      width: 15%;
+    height: 100%;}
     }
+    @media (min-width: 601px) {
+      .Picture {
+        width: 25%;}
+      }
+
+    @media (max-width: 600px) {
+      .images img {
+        width: 100%;}
+      }
+
+      @media (max-width: 600px) {
+        .h2 {
+          width: 40%;}
+        }
+
+        @media (max-width: 600px) {
+          .images img {
+            width: 50%;
+          }
+  }
+  @media (max-width : 600px){
+    .nav{
+      width: 84%;}
+   
   }
 /* contact title and formatting */
   h3{
@@ -145,8 +180,8 @@ display: flex;
 flex-direction: column;
 box-sizing: border-box;
 background-color: #7b9bb9;
-padding: 200px;
-margin-bottom: 1000px;
+padding: 100px;
+margin-bottom: auto;
   }
 
   .form{

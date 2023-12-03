@@ -16,7 +16,7 @@
 nav{
     display: flex;
     width: 84%;
-    margin: auto;
+    margin-left: 1200px;
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
@@ -44,13 +44,19 @@ color:rgb(159, 159, 196);
 }
 /* added margin and styling for header */
 header {
-    font-size: 50px;
+    font-size: 40px;
     color: #cfc9c9;
     margin-bottom:20px;
     font-weight: bold;
 }
 span{
     color: #5e1818;
+}
+
+ol {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(18, 19, 18);
 }
 /* Portfolio picture and positioning */
 .Picture{
@@ -83,7 +89,7 @@ h2 {
   font-size:"";
   text-indent: 0;
   border: rgb(8, 8, 8) solid;
-  border-width: 20px;
+  border-width: 10px;
   margin: 1.5em;
   padding: 1em;
   
@@ -95,6 +101,7 @@ h2 {
   background-color: rgb(221, 208, 208);
   margin-top: 440px;
   height: 1000px;
+  color: #5e1818;
 }
 /* Project images and positioning */
 .images{
@@ -137,7 +144,7 @@ box-sizing: border-box;
 display: flex;
 flex-direction: column;
 box-sizing: border-box;
-background-color: #868181;
+background-color: #7b9bb9;
 padding: 200px;
 margin-bottom: 1000px;
   }

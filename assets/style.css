@@ -212,55 +212,20 @@ h3 {
 }
 /* added media for smaller screens */
 @media screen and (max-width: 640px) {
-  /* Existing styles... */
 
-  .header {
-    font-size: 24px; 
-    margin-bottom: 5%; 
+  nav {
+    flex-direction: column;
+    text-align: center;
   }
 
-  p {
-    font-size: 1rem; 
+  nav ul li {
+    margin: 10px 0;
   }
 
-  h1 {
-    font-size: 32px; 
-    margin-top: 20px; 
-  }
 
-  h2 {
-    font-size: 24px; 
-    margin: 10px 0; 
-  }
-
-  h3 {
-    font-size: 32px; 
-    padding: 20px; 
-  }
-
-  .form {
-    width: 90%; 
-  }
-
-  .input, #msg {
+  .images img {
     width: 100%;
-    margin: 10px 0; 
+    border-radius: 10px; 
   }
 
-  #send {
-    width: 70%; 
-    margin: 20px 0; 
-  }
-
-  .hero {
-    height: auto; 
-  }
-
-  .Picture {
-    max-width: 100%; 
-  }
-
-  .about-me {
-    margin-top: 10px; 
-  }
 }

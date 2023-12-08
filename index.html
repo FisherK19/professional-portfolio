@@ -1,66 +1,58 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en-US">
 
-      <head>
-        <!-- Added viewpoint to view on all types of devices-->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="./assets/style.css">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0">
-         <title>Portfolio-Kristie Fisher</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Kristie Fisher</title>
 </head>
 
 <body>
-    <!--Added Hero -nav list About Me, Projects, Contact-->
-    <div class="hero">
-    <nav>
-            <ul>
-                <li><a href="#About Me">About Me</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="Picture">
-            <img src="images/thumbnail_image0.png" alt="Kristie">
-        </div>
-        <!--About Me -->
-        <div class="detel">
-            <div id="About Me" class="I'm Kristie"></div>
-            <header>Hello! My Name Is <span>Kristie Fisher</span></header>
-            <p>
-         <ol>I am from Downriver, Michigan. </ol>
-         <ol>I have been intrested in coding and web-development since I was introduced to it in high school.</ol>
-        <ol>One day online I saw an AD on social media, it seemed like fate and I knew this was my oppurtunity to gain education in coding.</ol>
-         </p>
-        </div>
-        <!--Portfolio image-->
-        
-        
-          <!--Project images. Project links to deployed Applications-->  
-       <section id="Projects">
+    <header class="header">
+        <!-- Added Hero -nav list About Me, Projects, Contact-->
+        <div class="hero">
+            <nav>
+                <ul>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!--Portfolio image-->
+            <div class="flex-container">
+                <div class="Picture">
+                  <img src="images/thumbnail_image0.png" alt="Kristie">
+                </div>
+                <div class="about-me">
+                  <h1>Hello! My Name Is Kristie Fisher</h1>
+                  <p>
+                    I am from Downriver, Michigan. I have been interested in coding and web development since I was introduced to it in high school. One day online I saw an AD on social media; it seemed like fate, and I knew this was my opportunity to gain education in coding.
+                  </p>
+                </div>
+              </div>
+    </header>
+    <!--Project images. Project links to deployed Applications-->
+    <section id="Projects">
         <h1 class="headings">PROJECTS</h1>
         <div class="images">
-            <h2><a href="https://fisherk19.github.io/horiseon-coding-refractor/"target= "blank">horiseon-coding-refractor</a><img src="images/code refactor.jpg" alt="Code refactor"></h2>
-           <h2><img src="images/calculator-11275056.jpg" alt="Calculator"> Calculator </h2>
-           <h2><img src="images/images.jpg" alt="Surf-report"> Surf-Report </h2>
-           <h2><img src="images/LED-Video-Wall.jpg" alt="led-wall">Led-Wall</h2>
+            <h2><a href="https://fisherk19.github.io/horiseon-coding-refractor/" target="_blank">horiseon-coding-refractor</a><img src="images/code refactor.jpg" alt="thumbnail for Code refactor"></h2>
+            <h2><a href="#Calculator">Calculator</a><img src="images/calculator-11275056.jpg" alt="thumbnail for Calculator project"></h2>
+            <h2><a href="#Surf-Report">Surf-Report</a><img src="images/images.jpg" alt="thumbnail for Surf-Report project"></h2>
+            <h2><a href="#led-wall">Led-Wall</a><img src="images/LED-Video-Wall.jpg" alt="thumbnail for led-wall project"></h2>
         </div>
-       </section>
-       <!--Contact section-->
-       <section id="Contact">
+    </section>
+    <!--Contact section-->
+    <section id="Contact">
         <h3 class="headings">CONTACT ME</h3>
-        <form action="" class="form">
-            <input type="text" name="name" class="input" placeholder="Enter
-            Your Name">
-            <input type="email" name="email" class="input" placeholder="Enter
-            Your Email">
-            <textarea name="msg" id="msg" cols="30" rows="10"
-            placeholder="Enter Your Message"></textarea>
+        <form action="form submit" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
             <input type="submit" value="SEND" id="send">
         </form>
-
-       </section>
-          
-</div>
+    </section>
 </body>
+
 </html>

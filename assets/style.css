@@ -222,10 +222,15 @@ h3 {
     margin: 10px 0;
   }
 
-
   .images img {
     width: 100%;
     border-radius: 10px; 
   }
-
+  .about-me {
+    margin-top: 20px;
+    z-index: 1;
+    clear: both; 
+  }
 }
+
+
